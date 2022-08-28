@@ -3,13 +3,16 @@
 
 int Strlen (const char *start)
 {
-    int i = 0;
-    while (*start != '\0')
+    const char *counter  = start;
+    while (*(counter++) != '\0')
     {
-        i++;
-        start++;
+        continue;
     }
 
-    return i;
+    return counter - start;
 
 }
+
+/*
+ strchr(start, '\0');
+*/
