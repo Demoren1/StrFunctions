@@ -20,6 +20,10 @@ const char *Strchr(const char *str, int sym);
 
 void Strchr_test();
 
+#define INF_ABOUT_ERROR()                                                  \
+            printf("\nWrong result in %d line, %s path, %s function \n",   \
+                   __LINE__, __FILE__, __PRETTY_FUNCTION__);
+
 enum Bool_V
 {
     True  = 1,
