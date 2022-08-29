@@ -32,7 +32,7 @@ int main()
 
     printf("Adress of String3[2] is %p, with Strchr it %p\n", &String3[2], Strchr(String3, 'l'));
 
-    Strchr_test();
+    //Strchr_test();
 
     getchar();
     return 0;
