@@ -2,23 +2,23 @@
 
 int Strlen(const char *str);
 
-void Strlen_test();
+void Strlen_test(int *errors, int *quantity_of_tests);
 
 char *Strcat(char *str1, const char *str2);
 
-void Strcat_test();
+void Strcat_test(int *errors, int *quantity_of_tests);
 
 int Strcmp(const char *str1, const char *str2);
 
-void Strcmp_test ();
+void Strcmp_test (int *errors, int *quantity_of_tests);
 
 char *Strcpy(char str1[], const char str2[]);
 
-void Strcpy_test();
+void Strcpy_test(int *errors, int *quantity_of_tests);
 
 const char *Strchr(const char *str, int sym);
 
-void Strchr_test();
+void Strchr_test(int *errors, int *quantity_of_tests);
 
 #define INF_ABOUT_ERROR()                                                  \
             printf("\nWrong result in %d line, %s path, %s function \n",   \

@@ -21,7 +21,6 @@ const char *Strchr(const char *str, int sym)
     }
 }
 
-
 char *Strcat(char *str1, const char *str2)
 {
     int len_of_str1 = Strlen (str1);
